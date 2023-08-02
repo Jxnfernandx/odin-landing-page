@@ -12,4 +12,4 @@ This is a solution to the Odin landing page challenge on The Odin Project
     This site was only designed for desktop in mind. I shall be designing more websites with both mobile and desktop mode in the near future.
 
 # Built-with
-    This site was built with semantic HTML and vanilla CSS. 
+    This site was built with semantic HTML and vanilla CSS. # odin-landing-page
