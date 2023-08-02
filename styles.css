@@ -30,10 +30,18 @@ img {
 header, footer {
     background-color: var(--primary-background-color);
 }
-
+h1 {
+    font-size: 48px;
+}
+.hero-text p {
+    font-size: 18px;
+}
 nav {
     color: var(--header-text-color);
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem;
 }
 nav img {
     width: 3em;
@@ -45,6 +53,7 @@ button {
     padding: .4em 2em;
     border-radius: .5em;
     border: none;
+    cursor: pointer;
 }
 .hero {
     display: flex;
@@ -55,7 +64,13 @@ button {
 }
 .hero-text {
     color: var(--main-text-color);
-    letter-spacing: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
+.hero-text button {
+    width: 25%;
 }
 .hero-container {
     display: flex;
@@ -64,8 +79,10 @@ button {
 }
 ul[role="list"] {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
+    gap: 7rem;
 }
 .studios {
     padding: 5em 15em;
@@ -114,6 +131,9 @@ blockquote {
     display: flex;
     justify-content: space-around;
     padding: 3em 4em;
+}
+.form button {
+    border: .2rem solid;
 }
 footer {
     display: flex;
